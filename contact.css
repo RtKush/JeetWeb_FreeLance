@@ -1,0 +1,230 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1e1e1e;
+}
+h1, h2 {
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+.hero-section h1 {
+    font-size: 44px;
+    font-weight: 800;
+    color: #1a1a1a;
+}
+.contact-info {
+    padding: 60px 80px;
+}
+
+.contact-info h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 18px;
+    color: #1a1a1a;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.7;
+    max-width: 800px;
+}
+.cta-section {
+    padding: 60px 80px;
+}
+
+.cta-section h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.cta-links a {
+    color: #444;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    margin-top: 18px;
+    padding: 14px 30px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.location-text p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.7;
+}
+
+
+/* NAVBAR */
+.navbar {
+    background: white;
+    padding: 18px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Menu */
+.menu-links {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-links a {
+    color: #222;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menu-links .active {
+    font-weight: bold;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon-link svg {
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.icon-link svg:hover {
+    stroke: #0099cc;
+    transform: scale(1.18);
+}
+
+/* HERO */
+.hero-section {
+    background: #e4e7df;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* MAIN CONTENT */
+.contact-info {
+    padding: 50px 80px;
+    line-height: 1.6;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* CTA SECTION */
+.cta-section {
+    padding: 50px 80px;
+}
+
+.cta-section h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.cta-links a {
+    color: #333;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    padding: 12px 26px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* MAP SECTION */
+.location-section {
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.location-text {
+    width: 40%;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.map-box {
+    width: 60%;
+}
+
+/* FOOTER */
+.footer {
+    background: #c8f1ff;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-col {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-logo {
+    width: 40px;
+}
+
+.footer-brand {
+    line-height: 1.5;
+}
+
+.footer-address {
+    line-height: 1.5;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: #222;
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+}
